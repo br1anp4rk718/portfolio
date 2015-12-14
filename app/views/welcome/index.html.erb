@@ -1,31 +1,17 @@
 
-<nav class="navbar navbar-inverse" id="navbaricons">
-  	<div class="container" id="navigate">
-    	<a href="https://twitter.com/br1anp4rk718">
-      	<img src="http://youngist.org/images/icon-social-twitter.svg" class="icon" alt="twitter" style="width:30px;height:35px;"></a>
-    	<a href="mailto:br1anp4rk718@gmail.com"><img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo-15-512.png" class="icon" style="width:30px;height:35px;"></a>
-      	<a href="https://www.facebook.com/brian.park.319"><img src="http://moznostvolby.sk/wp-content/uploads/2014/05/facebook-icon-white.png" class="icon" style="width: 30px; height: 35px; display: inline;"></a>
-      	<a href="https://github.com/br1anp4rk718"><img src="http://jeremyzander.com/images/github.png" class="icon" style="width:30px;height:35px;"></a>
-    </div>
-</nav>
-
-
 <div class="container landing-page">
 
-	<div class = "left" style="float: left; width:20%; height:50em;">
+	<div class = "left" style="float: left; width:26%; height:50em;opacity:0.5">
 
 	</div>
 
-		<div class="right" style="float: right;width:73.5%">
+		<div class="right" style="float: right;min-width:73.5%;">
 
 			<div class="aboutme">
-			<%= button_to "About Me", users_path, :class => "btn btn-default", :method => :get %>
+			<%= link_to "Learn More", users_path, class: "btn btn-default learnmorebutton" %>
+		
 			</div>
-			<div class="diamondpic">
-				<div class="pic1">
-					&nbsp
-				</div>
-			</div>
+			
 			<div class="copyright">
 				&copy; Brian Park 2015
 			</div>

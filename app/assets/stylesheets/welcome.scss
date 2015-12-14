@@ -42,6 +42,11 @@ body {
 	background-image: url("/assets/b2.jpg");
 }
 
+.left {
+    
+    
+}
+
 .copyright {
 	
 	bottom:0;
@@ -64,9 +69,29 @@ body {
   	top: 60%;
 }
 
-.diamondpic {
-
+span {
+	
+	font-size:2em;
+	color:#00CED1;
 
 }
 
 
+
+
+#navbaricons {
+    
+    border-radius:0px;
+}
+
+.learnmorebutton {
+    
+    background-color: transparent;
+    font-weight: bold;
+    opacity: 0.6;
+    color: white;
+    border-style: solid;
+    padding: 1em 1em;
+    border-width: 2px;
+    border-color: white;
+}

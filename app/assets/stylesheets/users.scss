@@ -1,3 +1,104 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.enterpage {
+	position:absolute;
+    width:100%;
+	border-style: solid;
+	border-width:thin;
+	border-color:black;
+	height:50em;
+	margin:3em 3em;
+	text-align:left;
+	background-image:url("/assets/japan.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom center;
+    margin-left:0px;
+}
+
+
+
+.leftarrow {
+	
+	display: inline-block;
+    vertical-align: middle;
+    opacity:0.2;
+    position: absolute;
+    top: 20.3em;
+    left: 0;
+    right: 0;
+
+    justify-content: center; /* add to align horizontal */
+    align-items: center; 
+}
+
+.rightarrow {
+	
+    vertical-align: middle;
+    width:128px;
+    height:128px;
+    display:inline-block;
+    opacity:0.2;
+    width: 20%;
+    position: absolute;
+    top: 20.3em;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.aboutme2 {
+    
+    position:absolute;
+    width:100%;
+    border-style: solid;
+    border-width:thin;
+    border-color:black;
+    height:50em;
+
+    text-align:left;
+    background-image:url("/assets/FullSizeRender.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    margin-left:0px;
+}
+
+.aboutmedescription {
+    
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 9em;
+    color: black;
+    font-family: fantasy;
+    
+    font-size: 17px;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.projects {
+    
+    position:absolute;
+    width:100%;
+    border-style: solid;
+    border-width:thin;
+    border-color:black;
+    height:50em;
+    margin:3em 3em;
+    text-align:left;
+    background-image:url("/assets/projects.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    margin-left:0px;
+}
+

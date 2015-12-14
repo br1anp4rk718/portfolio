@@ -1,1 +1,11 @@
-:D
+
+<div class="enterpage">
+	<div class="leftarrow" style="width:20%"><%= link_to "#{image_tag('leftarrow.png')}".html_safe, :controller => :welcome, :action => "index" %>
+	</div>
+				
+	<div class="aboutmedescription" style="text-align:center;margin-top:9em; color:aliceblue; font-size:25px;font-family:fantasy">Name: Brian Park<br>Age:29<br>		Birthdate: July 18th, 1986<br>Nationality: Korean-American<br>		Passion:Building beautiful and meaningful applications<br>			Basketball Fanatic
+	</div>
+	<div class="rightarrow" style="width:20%"><%= link_to "#{image_tag('rightarrow.png')}".html_safe, :controller => :users, action: 'aboutme' %>
+	</div>
+</div>
+ 
