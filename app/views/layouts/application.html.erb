@@ -21,15 +21,45 @@
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
+  <!-- google font -  Source Sans Pro -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   
   <title>Portfolio</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+<header>
+  
+  <nav class='navbar transparent navbar-inverse navbar-fixed-top'>
+    <nav class="navbar-inner">
+      <div class="container contact">
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Resume</a>
+      </div>
+<!--  <div class='container' id='navigate'>
+      <a href='https://twitter.com/br1anp4rk718'>
+      <img src='http://youngist.org/images/icon-social-twitter.svg' class='icon' alt='twitter' style='width:30px;height:35px;'></a>
+      <a href="mailto:br1anp4rk718@gmail.com"><img src='https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo-15-512.png' class='icon' style='width:30px;height:35px;'></a>
+      <a href='https://www.facebook.com/brian.park.319'><img src='http://moznostvolby.sk/wp-content/uploads/2014/05/facebook-icon-white.png' class='icon' style='width:30px;height:35px;'></a>
+      <a href='https://github.com/br1anp4rk718'><img src='http://jeremyzander.com/images/github.png' class='icon' style='width:30px;height:35px;'></a>
+      </div> -->
+      </nav>
+    </nav>
+
+</header>
+
+
+
 <body>
 
 <%= yield %>
 
+  <%= javascript_include_tag "texthover" %>
+ <%= javascript_include_tag "slidescreen" %>
 </body>
 </html>

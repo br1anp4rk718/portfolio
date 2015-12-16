@@ -11,7 +11,6 @@
 	border-width:thin;
 	border-color:black;
 	height:50em;
-	margin:3em 3em;
 	text-align:left;
 	background-image:url("/assets/japan.jpg");
 	background-repeat:no-repeat;
@@ -55,7 +54,7 @@
 
 
 
-.aboutme2 {
+#aboutme2 {
     
     position:absolute;
     width:100%;
@@ -85,7 +84,7 @@
     margin-left: 10em;
 }
 
-.projects {
+#projects {
     
     position:absolute;
     width:100%;
@@ -93,7 +92,7 @@
     border-width:thin;
     border-color:black;
     height:50em;
-    margin:3em 3em;
+ 
     text-align:left;
     background-image:url("/assets/projects.jpg");
     background-repeat:no-repeat;
@@ -101,4 +100,15 @@
     background-position:top center;
     margin-left:0px;
 }
+
+.contact {
+    margin: 2em auto;
+}
+
+.contact a {
+    
+    margin:auto 2em;
+    color:white;
+}
+
 

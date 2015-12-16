@@ -9,11 +9,9 @@ body {
 
 }
 
-
-
 .landing-page {
 
-	background-image:url("/assets/psbackground.png");
+	background-image:url("/assets/me.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -28,10 +26,7 @@ body {
 	margin-bottom:0px;
 }
 
-#navbaricons .icon {
-	
-	margin:1em 1em;
-}
+
 
 .right {
 	
@@ -44,7 +39,7 @@ body {
 
 .left {
     
-    
+
 }
 
 .copyright {
@@ -67,6 +62,7 @@ body {
   	transform: translate(-50%, -50%);
   	left: 50%;
   	top: 60%;
+  	margin-top:3em;
 }
 
 span {
@@ -95,3 +91,29 @@ span {
     border-width: 2px;
     border-color: white;
 }
+
+
+#colors {
+	
+	border-radius:0;
+	margin-bottom:0px;
+}
+
+#navigate a {
+	
+	margin-right:2em;
+	margin-left:2em;
+	text-align:left;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.0);
+
+}
+
+.navbar {
+	margin-bottom:0px;
+	opacity: 0.5;
+	height:75px;
+}
+
