@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get '/aboutme' => 'users#aboutme'
   get '/projects' => 'users#projects'
   
+
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

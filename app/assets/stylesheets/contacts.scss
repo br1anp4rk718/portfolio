@@ -1,0 +1,49 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#navigate a {
+	
+	margin-right:2em;
+	margin-left:2em;
+	text-align:left;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.0);
+
+}
+
+.navbar {
+	margin-bottom:0px;
+	opacity: 0.5;
+	height:75px;
+}
+
+.contactpage {
+    
+    background-image: url("/assets/contactbackground.jpg");
+    min-height: 50em;
+    max-height: 70em;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top:20em;
+}
+
+
+.form-horizontal {
+    
+    color:whitesmoke;
+}
+
+label.required {
+    
+    display:block;
+}
+
+input.required {
+    
+    color:black;
+}
