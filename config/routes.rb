@@ -7,10 +7,15 @@ Rails.application.routes.draw do
   resources :users
   get '/aboutme' => 'users#aboutme'
   get '/projects' => 'users#projects'
-  
-
+  get '/portfolio' => 'users#portfolio'
+  get '/resume' => 'users#resume'
   match '/contacts', to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]
+
+  resources :blogs
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -37,9 +37,10 @@
     <nav class="navbar-inner">
       <div class="container contact">
         <%= link_to 'Contact', contacts_path %>
-        <a href="#">Blog</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Resume</a>
+        <%= link_to 'Blog', blogs_path %>
+        <%= link_to 'Portfolio', portfolio_path %>
+        <%= link_to 'Resume', resume_path %>
+        <%= link_to 'Home', root_path , class: 'home'%>
       </div>
 <!--  <div class='container' id='navigate'>
       <a href='https://twitter.com/br1anp4rk718'>
